@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="74c3-0435-4201-c995" name="Marruecos" gameSystemId="sys-65d4-01b5-d4ea-b78e" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Ejercito Real Marroquí" id="5335-47b2-e1f7-9476" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Infanteria" hidden="false" id="2fa5-196a-8d27-73a6" targetId="a6a0-18d6-8610-d9b4"/>
+        <categoryLink name="Equipo de Apoyo" hidden="false" id="ab7a-a01e-c110-f03e" targetId="59d5-b957-b982-568c"/>
+        <categoryLink name="MBT" hidden="false" id="00f9-1dd4-f999-5345" targetId="a56f-bf11-b38a-2bfa"/>
+        <categoryLink name="Vehículo AA" hidden="false" id="b19a-bcc0-d9c4-ccac" targetId="79a0-6ee1-ca6d-6e38"/>
+        <categoryLink name="Vehículo Ligero de Apoyo" hidden="false" id="de5c-79b0-023c-24ad" targetId="2cf5-d805-3396-2ca8"/>
+        <categoryLink name="Vehículo ATGM" hidden="false" id="9e91-7629-9bce-abe1" targetId="89c1-a064-693c-a8c3"/>
+        <categoryLink name="Vehículo Reconocimiento" hidden="false" id="d413-0e20-d704-b6d3" targetId="8c02-2434-e48c-3e8b"/>
+        <categoryLink name="Helicóptero de Ataque" hidden="false" id="8f76-19b1-34fc-0b0d" targetId="c885-4c03-6730-3ef0"/>
+        <categoryLink name="Helicóptero de Transporte" hidden="false" id="acdc-a050-df24-2191" targetId="b01f-70f5-928d-47dc"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink import="true" name="Gazelle HOT" hidden="false" id="1e2e-4bbc-22d1-72e5" type="selectionEntry" targetId="dda6-8618-b971-8af8">
+      <categoryLinks>
+        <categoryLink targetId="c885-4c03-6730-3ef0" id="2a3d-a8f0-0358-84ca" primary="true" name="Helicóptero de Ataque"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="T-72B" hidden="false" id="622c-53f8-053f-df28" type="selectionEntry" targetId="0153-3653-fbfc-8c82"/>
+    <entryLink import="true" name="M60" hidden="false" id="d09b-b0fa-40a4-dfc6" type="selectionEntry" targetId="5cc9-70b6-0269-58f1">
+      <categoryLinks>
+        <categoryLink name="MBT" hidden="false" id="8c3d-0ded-2eb0-5a4e" targetId="a56f-bf11-b38a-2bfa" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="46" field="6564-41e1-8697-c50c"/>
+        <modifier type="set" value="6" field="1a06-b613-fab4-b965"/>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="M48A2GA2" hidden="false" id="6ff5-8068-62db-f671" type="selectionEntry" targetId="7a63-b05b-0b68-9e53">
+      <categoryLinks>
+        <categoryLink name="MBT" hidden="false" id="3135-31d6-2b42-7d11" targetId="a56f-bf11-b38a-2bfa" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="M48A5" field="name"/>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="AMX10 RC" hidden="false" id="bd2f-e254-4d4d-0f48" type="selectionEntry" targetId="5948-eeb3-2bbf-7c72">
+      <categoryLinks>
+        <categoryLink targetId="65e4-ab28-1272-03ec" id="d97f-f1f4-dfa6-3f89" primary="false" name="Vehiculo Ligero (ATV)"/>
+        <categoryLink targetId="2cf5-d805-3396-2ca8" id="dc34-91d0-22c8-1640" primary="true" name="Vehículo Ligero de Apoyo"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="M163" hidden="false" id="cfe8-c499-c1c3-e8b2" type="selectionEntry" targetId="8df1-a92b-c85b-a622">
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="dd5e-6327-4c18-12f3" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink name="Vehículo AA" hidden="false" id="feb1-297c-69b4-53f0" targetId="79a0-6ee1-ca6d-6e38" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="M106" hidden="false" id="5a68-a5d6-754e-3374" type="selectionEntry" targetId="3e93-136a-6c3d-d869">
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="4089-3399-fd3e-19c4" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink name="Vehículo Ligero de Apoyo" hidden="false" id="3896-7ced-1d31-3e2d" targetId="2cf5-d805-3396-2ca8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="ZSU23-4 Shilka" hidden="false" id="3527-393b-50f6-1758" type="selectionEntry" targetId="9c79-e0ea-f0aa-e893">
+      <categoryLinks>
+        <categoryLink targetId="79a0-6ee1-ca6d-6e38" id="7dec-e168-a8e8-5a70" primary="true" name="Vehículo AA"/>
+        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="339d-7b37-644a-3090" primary="false" name="Vehiculo Ligero (Orugas)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="MIM-72 Chaparral" hidden="false" id="d8dc-92cb-53c2-7d19" type="selectionEntry" targetId="8864-aa4b-bfdd-69c1">
+      <categoryLinks>
+        <categoryLink name="Vehículo AA" hidden="false" id="a137-51cf-0f41-5546" targetId="79a0-6ee1-ca6d-6e38" primary="true"/>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="b542-689a-e809-4976" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Panhard AML-90" hidden="false" id="7fb6-2062-3464-cfb8" type="selectionEntry" targetId="51f0-962c-3896-1820">
+      <categoryLinks>
+        <categoryLink targetId="65e4-ab28-1272-03ec" id="59c9-eecd-d9e2-a207" primary="false" name="Vehiculo Ligero (ATV)"/>
+        <categoryLink targetId="8c02-2434-e48c-3e8b" id="9433-1e9c-dc2c-c4b8" primary="true" name="Vehículo Reconocimiento"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="HMMWv (Recce)" hidden="false" id="4c08-de7f-6092-cfcf" type="selectionEntry" targetId="9ebf-3578-3900-6703">
+      <categoryLinks>
+        <categoryLink targetId="65e4-ab28-1272-03ec" id="6318-3a97-fac0-30db" primary="false" name="Vehiculo Ligero (ATV)"/>
+        <categoryLink targetId="8c02-2434-e48c-3e8b" id="00ae-6da7-2f8a-5bfc" primary="true" name="Vehículo Reconocimiento"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infantería" hidden="false" id="832b-cef1-6ba0-12e1" type="selectionEntry" targetId="fb2d-bad6-6978-903e">
+      <categoryLinks>
+        <categoryLink targetId="a6a0-18d6-8610-d9b4" id="b6b6-2ddf-95c2-26ce" primary="true" name="Infanteria"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="085a-ad94-347e-eb8b" type="selectionEntryGroup" targetId="fce1-58c3-ec98-5200"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Equipo de Mortero" hidden="false" id="27af-152c-cc1b-dbaf" type="selectionEntry" targetId="e873-6a18-b291-98a0">
+      <categoryLinks>
+        <categoryLink targetId="59d5-b957-b982-568c" id="f66c-4269-a4ef-ef20" primary="true" name="Equipo de Apoyo"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="c6f0-63c4-b100-cf77" type="selectionEntryGroup" targetId="fce1-58c3-ec98-5200"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Equipo Dragon" hidden="false" id="5a8b-aba5-c4f1-54dc" type="selectionEntry" targetId="e55a-6e63-84fe-99fb">
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="1834-065e-38bc-d741" type="selectionEntryGroup" targetId="fce1-58c3-ec98-5200"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="23" field="6564-41e1-8697-c50c"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="59d5-b957-b982-568c" id="b55a-8855-d23a-8d2f" primary="true" name="Equipo de Apoyo"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Equipo SAGGER" hidden="false" id="a18f-07a3-27bb-eaa3" type="selectionEntry" targetId="de8b-922a-f3c5-ece7">
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="cd5d-b31e-8d46-bdbb" type="selectionEntryGroup" targetId="fce1-58c3-ec98-5200"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="59d5-b957-b982-568c" id="c68a-bad3-3026-2939" primary="true" name="Equipo de Apoyo"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Equipo SAXHORN" hidden="false" id="8a22-90fa-fe95-7040" type="selectionEntry" targetId="61d4-e886-131a-49bf">
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="9500-0171-1d98-9c6f" type="selectionEntryGroup" targetId="fce1-58c3-ec98-5200"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="59d5-b957-b982-568c" id="4719-3a58-69c9-9025" primary="true" name="Equipo de Apoyo"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Equipo Spandrel" hidden="false" id="d5de-3c2e-050d-324e" type="selectionEntry" targetId="bba2-eeed-5dc2-78ab">
+      <categoryLinks>
+        <categoryLink targetId="59d5-b957-b982-568c" id="7845-ba83-67c5-09b7" primary="true" name="Equipo de Apoyo"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Transporte" id="fce1-58c3-ec98-5200" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="M113" hidden="false" id="31fb-1459-9462-d792" type="selectionEntry" targetId="a020-179f-5b8f-63de"/>
+        <entryLink import="true" name="VAB" hidden="false" id="946e-3373-1f81-f3dd" type="selectionEntry" targetId="c672-ddd7-bba8-e74d"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="017b-d0c4-8fa1-afa7" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
