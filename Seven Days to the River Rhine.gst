@@ -1831,6 +1831,7 @@ Este AAG impacta a 8+." field="description">
       </profiles>
       <infoLinks>
         <infoLink name="Reconocimiento" id="5c3d-6b94-94f4-f0e4" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+        <infoLink name="Proyectil HEAT / Blindaje Especial" id="ed27-739e-e4c7-20ad" hidden="false" type="rule" targetId="5b4e-994a-775e-526f"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="HMMWv-SAM" hidden="false" id="3cbe-7d8a-84c6-7a36">
@@ -2659,6 +2660,359 @@ Este AAG impacta a 8+." field="description">
       </profiles>
       <infoLinks>
         <infoLink name="Reconocimiento" id="8e20-ae88-3b02-ceef" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Jgpz Kanone" hidden="false" id="9c20-37ae-6172-a179">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="23"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="25b4-5350-fb61-3303" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink name="Vehículo Ligero de Apoyo" hidden="false" id="4399-de8b-8109-392d" targetId="2cf5-d805-3396-2ca8" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Frontal Fijo" id="7818-e714-fb5e-63f0" hidden="false" type="rule" targetId="e1ba-48dd-0d1a-a1fb"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Jgpz Kanone" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="6034-b537-4efe-6c8f">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">12/10</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">8</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">5</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Scimitar" hidden="false" id="653b-2cad-056a-8f9b">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="24"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="a0d3-c8d0-2201-d764" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink targetId="8c02-2434-e48c-3e8b" id="07b8-7beb-ab29-167c" primary="true" name="Vehículo Reconocimiento"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Scimitar" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="9171-48c6-0223-01fc">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">11 / 9</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">4a</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">4+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">-</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Cañón Automático" id="0075-05d4-cf12-a84d" hidden="false" type="rule" targetId="7cd1-662a-7286-4104"/>
+        <infoLink name="Reconocimiento" id="97e2-2793-d7c1-e2ff" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Scorpion" hidden="false" id="83ba-44ce-460c-637f">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="25"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="b9ad-2a30-bb1b-d250" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink targetId="8c02-2434-e48c-3e8b" id="3123-d5f5-24ba-603c" primary="true" name="Vehículo Reconocimiento"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Scorpion" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="a4ed-6432-3c3c-5351">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">11 / 9</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">7h</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">-</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Reconocimiento" id="5323-d92f-01e3-ce40" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Striker" hidden="false" id="839e-fa27-8a7d-7b71">
+      <categoryLinks>
+        <categoryLink name="Vehículo ATGM" hidden="false" id="efd6-7e12-e7a1-f4de" targetId="89c1-a064-693c-a8c3" primary="true"/>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="d309-9d02-a757-9eae" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="26"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Striker" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="f7e4-9065-ec1a-a5b4">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10 / 8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">n/a</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">n/a</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="ATGM" id="9826-cde8-3b77-286a" hidden="false" type="rule" targetId="0b84-5ce4-c281-9203"/>
+        <infoLink name="Proyectil HEAT / Blindaje Especial" id="00d5-1295-33cc-46ac" hidden="false" type="rule" targetId="5b4e-994a-775e-526f"/>
+        <infoLink name="Tirador Oculto" id="d1cd-ce7d-e820-635a" hidden="false" type="rule" targetId="02c0-0947-deef-e921"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="AMX13" hidden="false" id="65fd-af8a-1af6-4ae9">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="28"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="3f02-fd20-8fe1-b7f1" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink name="Vehículo Ligero de Apoyo" hidden="false" id="be4b-5388-e9c5-8d41" targetId="2cf5-d805-3396-2ca8" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="AMX13" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="39e8-875c-e8c8-fef0">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">12 / 10</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">9</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">5</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">-</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Alouette HOT" hidden="false" id="301c-3444-2db8-9536">
+      <categoryLinks>
+        <categoryLink name="Helicóptero de Ataque" hidden="false" id="71f2-11c4-7d9f-9cff" targetId="c885-4c03-6730-3ef0" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Alouette HOT" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="7a55-e68b-a0fd-6dcc">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">n/a</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">2</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">n/a</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">10h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Proyectil HEAT / Blindaje Especial" id="ceaa-c5a6-28ba-de0c" hidden="false" type="rule" targetId="5b4e-994a-775e-526f"/>
+        <infoLink name="ATGM" id="0f48-2a57-1ae2-8d94" hidden="false" type="rule" targetId="0b84-5ce4-c281-9203"/>
+        <infoLink name="Cohetes" id="24e8-4a74-d1c8-7c5d" hidden="false" type="rule" targetId="fb70-f6c9-58fd-566b"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="90"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="FV103 Spartan (Recce)" hidden="false" id="50a2-a74a-018b-dc45">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="15"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="f30a-0b3f-7775-51cb" primary="false" name="Vehiculo Ligero (Orugas)"/>
+        <categoryLink targetId="8c02-2434-e48c-3e8b" id="ae60-28e4-f275-5891" primary="true" name="Vehículo Reconocimiento"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="FV103 Spartan (Recce)" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="2019-2784-7773-d055">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10 / 8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">0</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">-</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Reconocimiento" id="f14f-be98-abf3-4130" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="FV103 Spartan" hidden="false" id="464c-b88c-bb8c-298d">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="15"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="61c4-6512-6f39-91ae" primary="false" name="Vehiculo Ligero (Orugas)"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="FV103 Spartan" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="0c5f-8cc0-0088-85c4">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10 / 8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">0</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">-</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Reconocimiento" id="0495-53e9-2e85-bf01" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="M150 TOW" hidden="false" id="c363-252f-a676-7494">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="45"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="9590-13ba-5ec3-2d92" primary="false" name="Vehiculo Ligero (Orugas)"/>
+        <categoryLink targetId="89c1-a064-693c-a8c3" id="9de4-1034-9d16-3f94" primary="true" name="Vehículo ATGM"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M150 TOW" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="adb2-4c5a-a0c2-73e7">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10 / 8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">n/a</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">n/a</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="M113 OP" hidden="false" id="5106-e0c4-05de-f6e9">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="12"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="2"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Reconocimiento" id="98d1-1a65-d184-8da6" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="M113 OP" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="ad05-b7e1-fa58-b8dd">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10/8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">0</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="8b0d-6d6e-b201-b3bc" primary="false" name="Vehiculo Ligero (Orugas)"/>
+        <categoryLink targetId="8c02-2434-e48c-3e8b" id="b3ae-cdce-ccb4-8717" primary="true" name="Vehículo Reconocimiento"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="M114" hidden="false" id="a032-2d67-1a9a-a521">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="18"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehiculo Ligero (Orugas)" hidden="false" id="8559-4c1d-11f6-b872" targetId="1dbc-c8b1-7dcb-4f89" primary="false"/>
+        <categoryLink name="Vehículo Reconocimiento" hidden="false" id="d535-701c-cf7d-f0b0" targetId="8c02-2434-e48c-3e8b" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M114" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="07f0-9ea6-e275-1758">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10/8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">0</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Reconocimiento" id="6980-cab7-2eb7-c133" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="6f28-3494-2264-5497" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Land Rover TOW" hidden="false" id="61cc-0690-a19f-a22b">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="35"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="02d5-4b36-c493-7595" id="65e1-192c-51b0-575f" primary="false" name="Vehiculo Ligero (Ruedas)"/>
+        <categoryLink targetId="89c1-a064-693c-a8c3" id="2cc6-ce29-b26e-4e11" primary="true" name="Vehículo ATGM"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Land Rover TOW" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="4194-a8b8-2d1d-d056">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">7 / 7</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">n/a</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">3</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Proyectil HEAT / Blindaje Especial" id="860b-a3e9-9826-d645" hidden="false" type="rule" targetId="5b4e-994a-775e-526f"/>
+        <infoLink name="ATGM" id="8260-5974-1de5-6551" hidden="false" type="rule" targetId="0b84-5ce4-c281-9203"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fuchs" hidden="false" id="d90b-a186-dbba-686b">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="9"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="65e4-ab28-1272-03ec" id="33cc-7da1-4621-825d" primary="true" name="Vehiculo Ligero (ATV)"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fuchs" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="7f80-68e5-c886-7d44">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10 / 8</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">0</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">4+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC" id="393c-4bb6-9ce9-69b9" hidden="false" type="rule" targetId="ef8c-8ab3-f606-393c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="SA330 Puma" hidden="false" id="539f-b2e0-ff28-e82c">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="35"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Helicóptero de Transporte" hidden="false" id="b42c-d46e-61ce-703a" targetId="b01f-70f5-928d-47dc" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA330 Puma" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="fd06-0c02-f728-211c">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">n/a</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">n/a</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">n/a</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">n/a</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5">-</characteristic>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC+" id="a19c-94f6-10f9-b873" hidden="false" type="rule" targetId="0815-bce9-741a-11b2"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
