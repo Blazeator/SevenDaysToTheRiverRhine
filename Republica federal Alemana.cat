@@ -54,31 +54,6 @@
         <infoLink name="Proyectil HEAT / Blindaje Especial" id="ef66-df74-90a4-3c65" hidden="false" type="rule" targetId="5b4e-994a-775e-526f"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Jgpz Kanone" hidden="false" id="9c20-37ae-6172-a179">
-      <costs>
-        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="23"/>
-        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="3"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="25b4-5350-fb61-3303" primary="false" name="Vehiculo Ligero (Orugas)"/>
-        <categoryLink targetId="2cf5-d805-3396-2ca8" id="4399-de8b-8109-392d" primary="true" name="Vehículo Ligero de Apoyo"/>
-      </categoryLinks>
-      <infoLinks>
-        <infoLink name="Frontal Fijo" id="7818-e714-fb5e-63f0" hidden="false" type="rule" targetId="e1ba-48dd-0d1a-a1fb"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Jgpz Kanone" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="6034-b537-4efe-6c8f">
-          <characteristics>
-            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">12/10</characteristic>
-            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">8</characteristic>
-            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
-            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">5</characteristic>
-            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
-            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Luchs" hidden="false" id="8b92-ad52-101f-6564">
       <costs>
         <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="18"/>
@@ -251,6 +226,7 @@
         <categoryLink targetId="a56f-bf11-b38a-2bfa" id="34c5-b2f8-a216-fb0d" primary="true" name="MBT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Jgpz Kanone" hidden="false" id="67cd-55c6-ca90-c801" type="selectionEntry" targetId="9c20-37ae-6172-a179"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Transporte" id="3511-5f60-0df5-44d1" hidden="false">

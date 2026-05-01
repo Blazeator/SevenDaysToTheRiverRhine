@@ -414,38 +414,6 @@
         <infoLink name="Thermal" id="14ca-4b68-718b-51c3" hidden="false" type="rule" targetId="1197-7172-01c1-5a06"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="M114" hidden="false" id="a032-2d67-1a9a-a521">
-      <costs>
-        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="18"/>
-        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="2"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="1dbc-c8b1-7dcb-4f89" id="8559-4c1d-11f6-b872" primary="false" name="Vehiculo Ligero (Orugas)"/>
-        <categoryLink targetId="8c02-2434-e48c-3e8b" id="d535-701c-cf7d-f0b0" primary="true" name="Vehículo Reconocimiento"/>
-      </categoryLinks>
-      <profiles>
-        <profile name="M114" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="07f0-9ea6-e275-1758">
-          <characteristics>
-            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">10/8</characteristic>
-            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">0</characteristic>
-            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">5+</characteristic>
-            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">4</characteristic>
-            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
-            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Reconocimiento" id="6980-cab7-2eb7-c133" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="6f28-3494-2264-5497" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Transporte" id="89d8-8492-f4a1-145b" hidden="false">
@@ -702,5 +670,6 @@
         <categoryLink targetId="c885-4c03-6730-3ef0" id="3abb-0b12-cf84-be97" primary="true" name="Helicóptero de Ataque"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="M114" hidden="false" id="d240-47d9-7484-58f0" type="selectionEntry" targetId="a032-2d67-1a9a-a521"/>
   </entryLinks>
 </catalogue>

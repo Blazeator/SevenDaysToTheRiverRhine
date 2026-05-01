@@ -18,7 +18,6 @@
   <entryLinks>
     <entryLink import="true" name="Bo-105" hidden="false" id="947d-b14c-a6eb-1c31" type="selectionEntry" targetId="3e36-ae26-6d69-4797"/>
     <entryLink import="true" name="Leopard 2" hidden="false" id="8ae1-f37d-2142-5e3d" type="selectionEntry" targetId="0563-bb8f-372f-cd24"/>
-    <entryLink import="true" name="Leopard 1" hidden="false" id="b8ad-cf9a-5625-dc2f" type="selectionEntry" targetId="bc62-0409-19c9-20b4"/>
     <entryLink import="true" name="Gepard" hidden="false" id="84c6-c854-ea0b-1fe3" type="selectionEntry" targetId="dc01-9a23-5f22-9faa"/>
     <entryLink import="true" name="M106 (Mortero)" hidden="false" id="031f-4cec-f19b-0f19" type="selectionEntry" targetId="3e93-136a-6c3d-d869"/>
     <entryLink import="true" name="Infantería" hidden="false" id="74c8-2204-e037-11b2" type="selectionEntry" targetId="fb2d-bad6-6978-903e">
@@ -166,6 +165,27 @@
       <infoLinks>
         <infoLink name="Reconocimiento" id="6036-f8e2-e384-fea4" hidden="false" type="rule" targetId="fecb-796b-e4ef-633e"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Leopard 1" hidden="false" id="bc62-0409-19c9-20b4">
+      <costs>
+        <cost name="Puntos" typeId="6564-41e1-8697-c50c" value="54"/>
+        <cost name="Break Points" typeId="1a06-b613-fab4-b965" value="7"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MBT" hidden="false" id="439c-d6d4-2e64-4ec8" targetId="a56f-bf11-b38a-2bfa" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Leopard 1" typeId="ded4-605c-929c-4c18" typeName="Unidad" hidden="false" id="7000-db21-72be-1987">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="9a06-af9c-4761-8999">14 / 12</characteristic>
+            <characteristic name="Arma" typeId="26e1-3123-aa08-37b1">10</characteristic>
+            <characteristic name="Impactar" typeId="20ff-1210-080c-b913">4+</characteristic>
+            <characteristic name="Moral" typeId="fb78-5ef5-369d-1356">6</characteristic>
+            <characteristic name="ATGM Imp" typeId="7538-4e43-72d0-9ee5"/>
+            <characteristic name="ATGM Arma" typeId="979c-c939-70fc-ac7d"/>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
